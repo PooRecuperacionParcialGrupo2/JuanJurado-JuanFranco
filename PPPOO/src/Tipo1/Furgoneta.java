@@ -11,7 +11,7 @@ package Tipo1;
 public class Furgoneta extends Vehiculo {
     private double volumenLitros;
 
-    public Furgoneta(double volumenLitros, String placa, String marca, double capacidadCombustible) {
+    public Furgoneta(String placa, String marca, double capacidadCombustible, double volumenLitros) {
         super(placa, marca, capacidadCombustible);
         this.volumenLitros = volumenLitros;
     }

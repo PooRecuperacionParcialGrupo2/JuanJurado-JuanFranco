@@ -10,7 +10,7 @@ import java.util.Objects;
  *
  * @author Juan Martín
  */
-public abstract class Vehiculo {
+    public abstract class Vehiculo {
 
     protected String placa;
     protected String marca;
@@ -77,3 +77,4 @@ public abstract class Vehiculo {
     
     
 }
+
